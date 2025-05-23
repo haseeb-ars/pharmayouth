@@ -26,7 +26,7 @@ const Header = () => {
       <header className="pharma-header sticky-header">
         <div className="logo-area">
           <a href="/">
-  <img src="/logo.png" alt="PharmaYouth Logo" className="logo-img" />
+ <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="PharmaYouth Logo" className="logo-img" />
   </a>
 </div>
 
