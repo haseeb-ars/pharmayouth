@@ -1,7 +1,15 @@
+.Home{
+  padding-top: 110px;
+}
+
 .home-main {
   background-color: #fff;
   padding: 4rem 2rem;
 }
+
+
+
+
 
 .home-container {
   max-width: 1200px;
@@ -37,15 +45,15 @@
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
-  background-color: #fbbf24;
-  color: #000;
+  background-color: #9d53c9;
+  color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
 
 .get-started:hover {
-  background-color: #f59e0b;
+  background-color: #461279;
 }
 
 .home-right {
@@ -62,6 +70,10 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+.Home{
+  padding-top: 80px;
+}
+
   .home-container {
     flex-direction: column;
     text-align: center;
@@ -82,7 +94,7 @@
 }
 
 .yellow-section {
-  background-color: #ffbf23;
+  background-color: #9d53c9;
   clip-path: ellipse(130% 100% at 50% 0%);
   padding: 4rem 2rem;
   display: flex;
@@ -107,7 +119,7 @@
 .yellow-left h2 {
   font-size: 2rem;
   font-weight: 600;
-  color: #111827;
+  color: white;
   margin: 0;
 }
 
@@ -118,7 +130,7 @@
 
 .yellow-right p {
   font-size: 1rem;
-  color: #111827;
+  color: white;
   line-height: 1.7;
   margin: 0;
 }
@@ -291,5 +303,67 @@
   }
   .collab-right h2{
     font-size: 1.7rem;
+  }
+}
+
+.why-choose-section {
+  background-color: #9d53c9;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-choose-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.why-choose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.why-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 300px;
+  text-align: left;
+}
+
+.why-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.why-item h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.why-item p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #d1d5db;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .why-choose-grid {
+    gap: 30px;
+  }
+
+  .why-item {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .why-choose-section h2 {
+    font-size: 1.6rem;
   }
 }

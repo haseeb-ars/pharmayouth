@@ -4,7 +4,7 @@
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding-top: 150px;
 }
 
 .contact-image {
@@ -39,7 +39,7 @@
 .contact-form-section h2 {
   font-size: 1.75rem;
   margin-bottom: 0.75rem;
-  color: #fbbf24;
+  color: #9d53c9;
 }
 
 .contact-form-section p {

@@ -1,8 +1,8 @@
 .footer-container {
-  background-color: #fbbf24;
+  background-color: #461279;
   padding: 4rem 2rem;
   font-family: 'Segoe UI', sans-serif;
-  color: #000;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@
 .footer-column p,
 .footer-column a {
   font-size: 0.95rem;
-  color: #000;
+  color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }

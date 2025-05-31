@@ -1,0 +1,123 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  padding-top: 110px;
+}
+
+.about-banner {
+  background-image: url('/public/AboutB.jpg'); /* <- Replace with your banner */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-banner-overlay {
+  background-color: rgba(61, 7, 110, 0.6); /* deep blue overlay */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-banner-overlay h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #4d007d;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-banner-overlay h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+}
+
+.about-helping-banner {
+  background-image: url('/public/MancCity.jpg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.helping-overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.helping-content {
+  max-width: 850px;
+  text-align: center;
+}
+
+.helping-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.helping-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-helping-banner {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .helping-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .helping-content p {
+    font-size: 1rem;
+  }
+}

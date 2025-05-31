@@ -6,11 +6,12 @@
   min-height: auto;
   padding: 2rem;
   box-sizing: border-box;
+  padding-top: 140px;
 }
 
 .signup-card {
   background-color: #ffffff;
-  border: 1px solid #fbbf24;
+  border: 1px solid #9d53c9;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   padding: 2.5rem 2rem;
   border-radius: 10px;
@@ -21,7 +22,7 @@
 
 .signup-card h2 {
   margin-bottom: 0.5rem;
-  color: #000;
+  color: #9d53c9;
   font-size: 1.8rem;
 }
 
@@ -47,8 +48,8 @@
 }
 
 button[type="submit"] {
-  background-color: #fbbf24;
-  color: #000;
+  background-color: #9d53c9;
+  color: white;
   border: none;
   padding: 0.75rem;
   font-size: 1rem;
@@ -68,7 +69,7 @@ button[type="submit"]:hover {
 }
 
 .signup-footer a {
-  color: #fbbf24;
+  color: #9d53c9;
   font-weight: 500;
   text-decoration: none;
 }

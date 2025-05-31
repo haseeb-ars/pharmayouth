@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Contact from './pages/InformationSite/Contact'; // ✅ Import it
 import Login from './pages/Login'; // ✅ Import
 import SignUp from './pages/SignUp';
+import WhatWeDo from './pages/InformationSite/WhatWeDo';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/whatwedo" element={<WhatWeDo />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} /> {/* ✅ Add this */}
           <Route path="/login" element={<Login />} />

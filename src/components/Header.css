@@ -2,12 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 3rem;
+  padding: 1.15rem 3rem;
   background-color: #fff;
   border-bottom: 1px solid #e5e7eb;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
+
+.pharma-header.scrolled {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  transition: padding 0.3s ease;
+}
+
 .logo-img {
   height: 72px;
   object-fit: contain;
@@ -32,14 +39,17 @@
   color: #111;
   text-decoration: none;
   font-weight: 500;
+  font-size: 18px;
+
 }
 
 .nav-link:first-child {
   color: #888; /* Make 'Home' look greyed out as shown */
+  font-size: 18px;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: underline blueviolet;
 }
 
 .login-area {
@@ -56,8 +66,8 @@
 
 .get-started-btn {
   padding: 0.5rem 1rem;
-  background-color: #fbbf24;
-  color: #000;
+  background-color: #461279;
+  color: white;
   font-weight: 600;
   border: 1px solid #000;
   border-radius: 6px;
@@ -72,12 +82,16 @@
 
 /* Sticky header */
 .sticky-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
   background-color: #fff;
   border-bottom: 1px solid #e5e7eb;
+  transition: padding 0.3s ease;
 }
+
 
 /* Hide hamburger by default */
 .hamburger {
@@ -153,4 +167,9 @@
     justify-content: space-between;
     padding: 1.3rem 1.5rem;
   }
+
+.pharma-header.scrolled {
+    padding: 0.6rem 1.5rem;
+  }
+
 }

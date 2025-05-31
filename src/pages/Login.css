@@ -6,11 +6,12 @@
   min-height: 70vh;
   padding: 2rem;
   box-sizing: border-box;
+  padding-top: 140px;
 }
 
 .login-card {
   background-color: #ffffff;
-  border: 1px solid #fbbf24;
+  border: 1px solid ;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   padding: 2.5rem 2rem;
   border-radius: 10px;
@@ -66,7 +67,7 @@
 
 
 .login-actions a {
-  color: #fbbf24;
+  color: #9d53c9;
   text-decoration: none;
 }
 
@@ -75,7 +76,7 @@
 }
 
 button[type="submit"] {
-  background-color: #fbbf24;
+  background-color: #9d53c9;
   color: #000;
   border: none;
   padding: 0.75rem;
@@ -87,7 +88,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #f59e0b;
+  background-color: #9d53c9;
 }
 
 .login-footer {
@@ -96,7 +97,7 @@ button[type="submit"]:hover {
 }
 
 .login-footer a {
-  color: #fbbf24;
+  color: #9d53c9;
   font-weight: 500;
   text-decoration: none;
 }

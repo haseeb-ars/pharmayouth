@@ -1,8 +1,66 @@
 import './Home.css';
+import PharmaYouthSlider from './Slider';
+import HelpSection from './HelpSection';
 
 export default function Home() {
   return (
-    <div>
+    <div className='Home'>
+
+
+<PharmaYouthSlider />
+<HelpSection />
+
+
+<div className="why-choose-section">
+  <h2>Why choose PharmaYouth?</h2>
+  <div className="why-choose-grid">
+    <div className="why-item">
+      <img src="/hospital.png" alt="Icon" />
+      <div>
+        <h3>20,000+</h3>
+        <p>formulations available for immediate manufacture</p>
+      </div>
+    </div>
+    <div className="why-item">
+      <img src="/Faidbox.png" alt="Icon" />
+      <div>
+        <h3>8am to 8pm</h3>
+        <p>GMT phone lines</p>
+      </div>
+    </div>
+    <div className="why-item">
+      <img src="/hospital.png" alt="Icon" />
+      <div>
+        <h3>1-click</h3>
+        <p>repeat-order pads for individual patients</p>
+      </div>
+    </div>
+    <div className="why-item">
+      <img src="/Faidbox.png" alt="Icon" />
+      <div>
+        <h3>24/7</h3>
+        <p>Online Ordering Portal</p>
+      </div>
+    </div>
+    <div className="why-item">
+      <img src="/hospital.png" alt="Icon" />
+      <div>
+        <h3>NVQ 2 & 3</h3>
+        <p>Qualified pharmacy-trained customer support</p>
+      </div>
+    </div>
+    <div className="why-item">
+      <img src="/Faidbox.png" alt="Icon" />
+      <div>
+        <h3>°C</h3>
+        <p>Cold chain packaging for temperature safety</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/*  
 <div className="home-main">
   <div className="home-container">
     <div className="home-left">
@@ -15,8 +73,8 @@ export default function Home() {
     </div>
   </div>
 </div>
-
-
+*/}
+{/* 
 <div className="yellow-section">
   <div className="yellow-section-content">
     <div className="yellow-left">
@@ -34,7 +92,7 @@ export default function Home() {
   </div>
 </div>
 
-
+*/}
 
 <section className="collab-section" id="about-section">
   <div className="collab-container">
@@ -102,9 +160,9 @@ export default function Home() {
 
 
 
-
-
-
     </div>
+
+    
   );
 }
+
