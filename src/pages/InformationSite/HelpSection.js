@@ -24,7 +24,7 @@ const HelpSection = () => {
   const boxes = [
     {
       title: 'Wholesale Pharmaceuticals',
-      image: '/what1.jpg',
+      image: '/What1.jpg',
       desc: 'Supplying licensed medicines to pharmacies, clinics, and hospitals with a focus on reliability and compliance.',
     },
     {
