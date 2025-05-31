@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.8f6bd545.css",
-    "main.js": "/static/js/main.e52ae4fa.js",
+    "main.js": "/static/js/main.0fd5d2c8.js",
     "static/js/453.53aedd7a.chunk.js": "/static/js/453.53aedd7a.chunk.js",
     "static/media/MancCity.jpg": "/static/media/MancCity.2d328841a76505fd5dc0.jpg",
     "static/media/WhatWeDo.jpg": "/static/media/WhatWeDo.93aabd704c269e65bb38.jpg",
     "static/media/AboutB.jpg": "/static/media/AboutB.d0390b70f48e99ce802d.jpg",
     "index.html": "/index.html",
     "main.8f6bd545.css.map": "/static/css/main.8f6bd545.css.map",
-    "main.e52ae4fa.js.map": "/static/js/main.e52ae4fa.js.map",
+    "main.0fd5d2c8.js.map": "/static/js/main.0fd5d2c8.js.map",
     "453.53aedd7a.chunk.js.map": "/static/js/453.53aedd7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f6bd545.css",
-    "static/js/main.e52ae4fa.js"
+    "static/js/main.0fd5d2c8.js"
   ]
 }
