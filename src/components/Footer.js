@@ -11,7 +11,7 @@ const Footer = () => {
 <div className="footer-top">
         <div className="footer-logo">
            <div className="logo-area">
-  <img src="/footerl.png" alt="PharmaYouth Logo" className="logo-img" />
+  <img src="/FooterL.png" alt="PharmaYouth Logo" className="logo-img" />
 </div>
         </div>
       </div>

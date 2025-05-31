@@ -35,7 +35,7 @@ const Header = () => {
       <header className={`pharma-header sticky-header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="logo-area">
           <a href="/">
-            <img src={`${process.env.PUBLIC_URL}/Logo.png`} alt="PharmaYouth Logo" className="logo-img" />
+            <img src={`${process.env.PUBLIC_URL}/LogoM.png`} alt="PharmaYouth Logo" className="logo-img" />
           </a>
         </div>
 
