@@ -1,19 +1,28 @@
 import React, { useState, useEffect } from 'react';
-import { FaUserCircle, FaBars } from 'react-icons/fa';
+import {  FaBars, FaChevronDown } from 'react-icons/fa';
 import './Header.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleToggle = () => setMenuOpen(!menuOpen);
-  const closeMenu = () => setMenuOpen(false);
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setSubmenuOpen(false);
+  };
 
   // Close menu on outside click
   useEffect(() => {
     const handleClickOutside = (e) => {
-      if (!e.target.closest('.mobile-menu') && !e.target.closest('.hamburger')) {
+      if (
+        !e.target.closest('.mobile-menu') &&
+        !e.target.closest('.hamburger') &&
+        !e.target.closest('.submenu-wrapper') &&
+        !e.target.closest('.submenu-mobile')
+      ) {
         closeMenu();
       }
     };
@@ -42,15 +51,24 @@ const Header = () => {
         <nav className="nav-menu desktop-nav">
           <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
           <Link smooth to="/about" className="nav-link" onClick={closeMenu}>About</Link>
-          <Link to="/whatwedo" className="nav-link" onClick={closeMenu}>What we do</Link>
-          <Link to="/contact" className="nav-link" onClick={closeMenu}>Contact</Link>
 
-          <div className="login-area">
-            <FaUserCircle size={20} />
-            <Link to="/login" className="login-text">Login</Link>
+          <div className="submenu-wrapper">
+            <div className="nav-link submenu-toggle" onClick={() => setSubmenuOpen(!submenuOpen)}>
+              What we do <FaChevronDown size={12} style={{ marginLeft: '4px' }} />
+            </div>
+            
+              <div className={`dropdown-menu ${submenuOpen ? 'show' : ''}`}>
+                <Link to="/cbpm" className="dropdown-link" onClick={closeMenu}>CBPMs and Unlicensed Medicines</Link>
+                <Link to="/importexport" className="dropdown-link" onClick={closeMenu}>Import & Export</Link>
+                <Link to="/wholesale" className="dropdown-link" onClick={closeMenu}>Wholesale</Link>
+                <Link to="/specialobtains" className="dropdown-link" onClick={closeMenu}>Special Obtains</Link>
+              </div>
+        
           </div>
 
-          <Link to="/signup" className="get-started-btn">Get Started</Link>
+        
+
+          <Link to="/contact" className="get-started-btn">Contact us</Link>
         </nav>
 
         <div className="hamburger" onClick={handleToggle}>
@@ -61,11 +79,23 @@ const Header = () => {
       <div className={`mobile-menu ${menuOpen ? 'slide-in' : 'slide-out'}`}>
         <Link to="/" onClick={closeMenu}>Home</Link>
         <Link smooth to="/about" className="nav-link" onClick={closeMenu}>About</Link>
-        <Link to="/whatwedo" className="nav-link" onClick={closeMenu}>What we do</Link>
+
+        <div className="submenu-mobile">
+          <div className="nav-link submenu-toggle" onClick={() => setSubmenuOpen(!submenuOpen)}>
+            What we do <FaChevronDown size={12} style={{ marginLeft: '4px' }} />
+          </div>
+          {submenuOpen && (
+            <div className={`dropdown-menu ${submenuOpen ? 'show' : ''}`}>
+  <Link to="/cbpm" className="dropdown-link" onClick={closeMenu}>CBPMs and Unlicensed Medicines</Link>
+  <Link to="/importexport" className="dropdown-link" onClick={closeMenu}>Import & Export</Link>
+  <Link to="/wholesale" className="dropdown-link" onClick={closeMenu}>Wholesale</Link>
+  <Link to="/specialobtains" className="dropdown-link" onClick={closeMenu}>Special Obtains</Link>
+</div>
+
+          )}
+        </div>
+
         <Link to="/contact" onClick={closeMenu}>Contact</Link>
-        <Link to="/signup" onClick={closeMenu}>Get Started
-        </Link>
-        <Link to="/login" onClick={closeMenu}>Log In</Link>
       </div>
     </>
   );

@@ -1,0 +1,112 @@
+.special-obtains-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  padding-top: 110px;
+}
+
+.special-banner {
+  background-image: url('/public/SOBanner.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(211, 84, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.special-content {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #c2410c;
+  font-weight: 600;
+}
+
+.dropdowns {
+  margin-top: 2rem;
+}
+
+.dropdown {
+  margin-bottom: 1rem;
+}
+
+.dropdown-btn {
+  background-color: #f97316;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content {
+  background: #fff5eb;
+  border: 1px solid #f59e0b;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+}
+
+/* ---------- RESPONSIVE STYLING ---------- */
+
+@media (max-width: 768px) {
+  .special-banner {
+    height: 250px;
+  }
+
+  .overlay h1 {
+    font-size: 2.2rem;
+    padding: 0 1rem;
+  }
+
+  .special-content {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+
+  .dropdown-btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .dropdown-content {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .special-content {
+    font-size: 0.95rem;
+  }
+
+  .dropdown-btn {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-content {
+    font-size: 0.9rem;
+  }
+}

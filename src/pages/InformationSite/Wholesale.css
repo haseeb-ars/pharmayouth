@@ -1,0 +1,100 @@
+.wholesale-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  padding-top: 110px;
+}
+
+.wholesale-banner {
+  background-image: url('/public/WholesaleBanner.jpg'); /* Replace with your actual path */
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  position: relative;
+}
+
+.wholesale-overlay {
+  background-color: rgba(9, 52, 93, 0.65);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wholesale-overlay h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.wholesale-content {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.wholesale-content h2 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.wholesale-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.wholesale-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.wholesale-content li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 768px) {
+  .wholesale-banner {
+    height: 250px;
+  }
+
+  .wholesale-overlay h1 {
+    font-size: 2.2rem;
+    padding: 0 1rem;
+  }
+
+  .wholesale-content {
+    padding: 0 1rem;
+  }
+
+  .wholesale-content h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .wholesale-content p,
+  .wholesale-content li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wholesale-overlay h1 {
+    font-size: 1.7rem;
+  }
+
+  .wholesale-content h2 {
+    font-size: 1.15rem;
+  }
+
+  .wholesale-content p,
+  .wholesale-content li {
+    font-size: 0.95rem;
+  }
+}

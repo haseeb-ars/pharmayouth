@@ -1,0 +1,61 @@
+.cbpm-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  padding-top: 110px;
+}
+
+.cbpm-banner {
+  background: linear-gradient(to right, #510066, #9333ea);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cbpm-banner h1 {
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.cbpm-text-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.dropdown {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  padding-left: 10px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cbpm-banner h1 {
+    font-size: 32px;
+  }
+
+  .cbpm-text-section {
+    font-size: 16px;
+  }
+
+  .dropdown-header {
+    font-size: 18px;
+  }
+}

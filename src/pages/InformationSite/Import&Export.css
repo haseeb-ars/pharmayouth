@@ -1,0 +1,88 @@
+.import-export-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  padding-top: 110px;
+}
+
+.import-banner {
+  background-image: url('/public/ImportExport.jpg'); /* Replace with correct image path */
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  position: relative;
+}
+
+.import-overlay {
+  background-color: rgba(5, 107, 34, 0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.import-overlay h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.import-content {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.import-content h2 {
+  color: #14532d;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.import-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 768px) {
+  .import-overlay h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .import-banner {
+    height: 250px;
+  }
+
+  .import-content {
+    padding: 0 1rem;
+    margin: 2rem 0;
+  }
+
+  .import-content h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .import-content p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 480px) {
+  .import-overlay h1 {
+    font-size: 1.6rem;
+  }
+
+  .import-content h2 {
+    font-size: 1.15rem;
+  }
+
+  .import-content p {
+    font-size: 0.95rem;
+  }
+}

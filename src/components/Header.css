@@ -173,3 +173,68 @@
   }
 
 }
+/* Dropdown submenu styles */
+/* Submenu Dropdown (Desktop) */
+.submenu-wrapper {
+  position: relative;
+}
+
+.submenu-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 0.75rem;
+  min-width: 220px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
+
+.dropdown-link {
+  padding: 8px 0;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline blueviolet;
+}
+
+/* Hover functionality on desktop */
+@media (max-width: 768px) {
+  .dropdown-menu {
+    display: flex;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    box-shadow: none;
+    padding: 0.5rem 0;
+    border: none;
+    background: none;
+  }
+
+  .dropdown-link {
+    padding: 0.4rem 1rem;
+  }
+
+  .submenu-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+  }
+}
