@@ -6,7 +6,7 @@ const Wholesale = () => {
     <div className="wholesale-page">
       <div className="wholesale-banner">
         <div className="wholesale-overlay">
-          <h1>Wholesalec</h1>
+          <h1>Wholesale</h1>
         </div>
       </div>
 

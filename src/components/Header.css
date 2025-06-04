@@ -44,7 +44,7 @@
 }
 
 .nav-link:first-child {
-  color: #888; /* Make 'Home' look greyed out as shown */
+  color: #111; /* Make 'Home' look greyed out as shown */
   font-size: 18px;
 }
 
