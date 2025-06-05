@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a747eb06.css",
-    "main.js": "/static/js/main.15fab2f8.js",
+    "main.css": "/static/css/main.c81efb2d.css",
+    "main.js": "/static/js/main.5a8cca89.js",
     "static/js/453.53aedd7a.chunk.js": "/static/js/453.53aedd7a.chunk.js",
     "static/media/WholesaleBanner.jpg": "/static/media/WholesaleBanner.383f111c4f8ab9bd65a5.jpg",
     "static/media/ImportExport.jpg": "/static/media/ImportExport.0a9e9d5fbcfd4b497d41.jpg",
+    "static/media/Weed.jpg": "/static/media/Weed.20315105e9f9334c7df1.jpg",
     "static/media/MancCity.jpg": "/static/media/MancCity.2d328841a76505fd5dc0.jpg",
     "static/media/SOBanner.jpg": "/static/media/SOBanner.1d3deef18a8a38ddeaef.jpg",
     "static/media/WhatWeDo.jpg": "/static/media/WhatWeDo.93aabd704c269e65bb38.jpg",
     "static/media/AboutB.jpg": "/static/media/AboutB.d0390b70f48e99ce802d.jpg",
     "index.html": "/index.html",
-    "main.a747eb06.css.map": "/static/css/main.a747eb06.css.map",
-    "main.15fab2f8.js.map": "/static/js/main.15fab2f8.js.map",
+    "main.c81efb2d.css.map": "/static/css/main.c81efb2d.css.map",
+    "main.5a8cca89.js.map": "/static/js/main.5a8cca89.js.map",
     "453.53aedd7a.chunk.js.map": "/static/js/453.53aedd7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a747eb06.css",
-    "static/js/main.15fab2f8.js"
+    "static/css/main.c81efb2d.css",
+    "static/js/main.5a8cca89.js"
   ]
 }
