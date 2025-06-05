@@ -13,7 +13,7 @@
 }
 
 .import-overlay {
-  background-color: rgba(5, 107, 34, 0.7);
+  background-color: rgba(61, 7, 110, 0.5);
   height: 100%;
   width: 100%;
   display: flex;
@@ -28,13 +28,13 @@
 }
 
 .import-content {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 3rem auto;
   padding: 0 1.5rem;
 }
 
 .import-content h2 {
-  color: #14532d;
+  color: #9d53c9;
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
