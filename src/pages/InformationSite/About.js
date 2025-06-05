@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import TeamSection from './TeamSection';
 
 const AboutPage = () => {
   return (
@@ -16,18 +17,11 @@ const AboutPage = () => {
         <h2>
           PharmaYouth Ltd is a fully licensed and regulated pharmaceutical wholesaler based at a secure, MHRA-approved facility in Merseyside. We hold a Wholesale Distribution Authorisation (WDA(H)), a Manufacturer’s “Specials” Licence (MS), and a Home Office Controlled Drug Licence, enabling us to specialise in the importation, storage, distribution and export of a wide range of medicinal products, including Licenced products, Cannabis-Based Products for Medicinal Use (CBPMs), and other unlicensed “specials”.
         </h2>
-        <p>
-         <strong>Founders' Expertise </strong><br></br>
- PharmaYouth is founded and led by two highly experienced professionals:<br></br>
- <strong>Mr Hussain Abdeh – Co-Founder & Quality Director</strong><br></br>
- Hussain has successfully led multiple MHRA inspections, implemented end-to-end pharmaceutical quality systems, and served as Responsible Person (RP), Responsible Person (Import), and Head of Quality Control (QC) for various licensed facilities.<br></br>
- <strong>Mr Mehraan Sattar – Co-Founder & Director</strong><br></br>
- With extensive experience in GDP compliance, regulatory affairs, and pharmaceutical distribution, Mehraan oversees the operational and compliance frameworks of PharmaYouth. He has led MHRA inspections, trained teams on regulatory standards, and managed product integrity across complex distribution chains. 
- Together, they bring a combined decade of experience in regulatory, operational, and leadership roles across the unlicensed medicines and CBPM sectors.
-        </p>
       </div>
 
+<TeamSection></TeamSection>
 
+{/* 
 <div className="about-helping-banner">
   <div className="helping-overlay">
     <div className="helping-content">
@@ -45,7 +39,7 @@ const AboutPage = () => {
     </div>
   </div>
 </div>
-
+*/}
 
 <div className="about-content">
         <h2>

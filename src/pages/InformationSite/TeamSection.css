@@ -1,0 +1,112 @@
+.team-section {
+  padding: 4rem 2rem;
+  background-color: #f9f9fc;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.team-title {
+  font-size: 2.2rem;
+  color: #461279;
+  margin-bottom: 1.2rem;
+}
+
+.team-intro {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.founders-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.founder-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  width: 300px;
+  text-align: center;
+  
+}
+
+.founder-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+ 
+}
+
+.founder-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.3rem;
+  color: #111;
+}
+
+.founder-card h4 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.founder-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .founders-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-intro {
+    font-size: 1rem;
+    padding: 0 0rem;
+  }
+}
+@media (max-width: 480px) {
+  .team-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .team-title {
+    font-size: 1.7rem;
+  }
+
+  .team-intro {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .founder-card {
+    width: 80%;
+    padding: 1.5rem;
+  }
+
+  .founder-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .founder-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .founder-card h4 {
+    font-size: 0.95rem;
+  }
+
+  .founder-card p {
+    font-size: 0.9rem;
+  }
+}
