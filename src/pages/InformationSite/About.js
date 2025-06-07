@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 import TeamSection from './TeamSection';
+import { Link } from 'react-router-dom';
+
 
 const AboutPage = () => {
   return (
@@ -8,18 +10,27 @@ const AboutPage = () => {
       {/* Banner */}
       <div className="about-banner">
         <div className="about-banner-overlay">
-          <h1>Profile & Mission</h1>
+          <h1>About Us</h1>
         </div>
       </div>
+
+
+     
+
 
       {/* Content */}
       <div className="about-content">
         <h2>
           PharmaYouth Ltd is a fully licensed and regulated pharmaceutical wholesaler based at a secure, MHRA-approved facility in Merseyside. We hold a Wholesale Distribution Authorisation (WDA(H)), a Manufacturer’s “Specials” Licence (MS), and a Home Office Controlled Drug Licence, enabling us to specialise in the importation, storage, distribution and export of a wide range of medicinal products, including Licenced products, Cannabis-Based Products for Medicinal Use (CBPMs), and other unlicensed “specials”.
         </h2>
+        <p>
+  Have questions or need assistance? <Link to="/contact">Contact us</Link> and our team will be happy to help.
+</p>
+
       </div>
 
-<TeamSection></TeamSection>
+       <TeamSection></TeamSection>
+
 
 {/* 
 <div className="about-helping-banner">
@@ -42,8 +53,8 @@ const AboutPage = () => {
 */}
 
 <div className="about-content">
-        <h2>
-PharmaYouth provides a comprehensive portfolio of pharmaceutical services tailored to meet regulatory, clinical, and supply chain needs across the UK and internationally. Our offerings include:        </h2>
+        <h3>
+PharmaYouth provides a comprehensive portfolio of pharmaceutical services tailored to meet regulatory, clinical, and supply chain needs across the UK and internationally. Our offerings include:        </h3>
      <p> <ul>
   <li>
     <strong>Importation and Supply of Unlicensed Medicines (Specials)</strong><br />

@@ -12,6 +12,7 @@ import CBPMs from './pages/InformationSite/CBPMsUnlicensed';
 import SpecialObtains from './pages/InformationSite/SpecialObtains';
 import ImportExport from './pages/InformationSite/Import&Export';
 import Wholesale from './pages/InformationSite/Wholesale';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
