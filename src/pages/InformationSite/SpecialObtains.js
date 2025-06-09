@@ -3,7 +3,6 @@ import './SpecialObtains.css';
 
 const SpecialObtains = () => {
   const [open1, setOpen1] = useState(false);
-  const [open2, setOpen2] = useState(false);
 
   return (
     <div className="special-obtains-page">
@@ -68,6 +67,12 @@ const SpecialObtains = () => {
 
 <h2>A Service You Can Rely On</h2>
 <p>If you're struggling to find a particular product to meet an unmet patient need, let PharmaYouth do the searching for you. Our experienced team understands the urgency and sensitivity involved in sourcing specialist items — and we're committed to fast, compliant, and reliable delivery.</p>
+       
+<h2>Get in Touch</h2>
+<p>Need help with importing or exporting pharmaceuticals?<br></br>
+Contact our expert team today for regulatory guidance, quotations, or product availability.<br></br>
+📧 <strong>Email:</strong> info@pharmayouth.com<br></br>
+🌍 Worldwide Coverage | GDP Compliant | Fast Turnaround</p>       
         </div>
       </div>
     </div>

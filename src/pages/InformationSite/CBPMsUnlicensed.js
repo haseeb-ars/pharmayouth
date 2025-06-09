@@ -80,7 +80,11 @@ PharmaYouth supports the ethical and regulatory-compliant supply of Cannabis-Bas
             </div>
           )}
         </div>
-
+<h2 className='getintouch'>Get in Touch</h2>
+<p>Need help with importing or exporting pharmaceuticals?<br></br>
+Contact our expert team today for regulatory guidance, quotations, or product availability.<br></br>
+📧 <strong>Email:</strong> info@pharmayouth.com<br></br>
+🌍 Worldwide Coverage | GDP Compliant | Fast Turnaround</p>
         
       </div>
 

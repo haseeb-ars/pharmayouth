@@ -44,30 +44,25 @@ Our export services include:</p>
   ⚫ Customised documentation including Certificates of Analysis (CoA), Certificates of Pharmaceutical Product (CPP), and invoices compliant with destination regulations.<br></br>
   ⚫ Global shipping logistics, including ambient, cold chain, and controlled drug consignments.<br></br>
   ⚫ Regulatory support and destination-country compliance guidance</p>
-<strong>We export to Europe, the Middle East, Asia, Africa, and beyond — always adhering to the regulatory frameworks of both the exporting and importing country.</strong>
+<strong>We export worldwide always adhering to the regulatory frameworks of both the exporting and importing country.</strong>
 <h3>Product Categories We Handle</h3>
 <p>We manage a wide range of pharmaceutical products for import/export, including:<br></br>
  1.Prescription medicines (Rx)<br></br>
  2.Unlicensed medicines (named-patient or hospital-use)<br></br>
  3.Cold chain and biologics<br></br>
- 4.Controlled drugs and CBPMs<br></br>
- 5.Vaccines and injectables<br></br>
- 6.Oral solids and liquids<br></br>
- 7.Sterile and non-sterile formulations<br></br>
+ 4.Controlled drugs
 </p>
 <h3>Quality & Compliance at Every Step</h3>
 <p>PharmaYouth operates in strict alignment with:<br></br>
  ‣ MHRA (UK Medicines and Healthcare products Regulatory Agency)<br></br>
  ‣ Home Office (for controlled substances)<br></br>
  ‣ GDP (Good Distribution Practice) standards<br></br>
- ‣ Customs and Excise regulations for import/export<br></br>
- ‣ International guidelines, including EU and WHO frameworks<br></br>
  ‣ We ensure all documentation, handling, and logistics meet global pharmaceutical distribution standards.<br></br>
 </p>
 
 <h2>Partner with PharmaYouth</h2>
 <p>Whether you're a healthcare provider sourcing a life-saving medicine, a distributor needing export support, or a pharmaceutical company expanding global access to your product. PharmaYouth is your trusted partner in pharmaceutical logistics.</p>
-<h3>Get in Touch</h3>
+<h2>Get in Touch</h2>
 <p><strong>Need help with importing or exporting pharmaceuticals?</strong><br></br>
 Contact our expert team today for regulatory guidance, quotations, or product availability.<br></br>
 📧 <strong>Email:</strong> info@pharmayouth.com<br></br>
