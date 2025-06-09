@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="footer-column">
           <h3>Contact</h3>
-          <p>Unit 6D Longden Road, Levenshulme<br />Manchester, M12 5SR</p>
+          <p>Ams Medical Accountants Limited, Floor 2, 9 Portland Street<br />Manchester, United Kingdom, M1 3BE</p>
           <p>Sales: info@pharmayouth.com</p>
           <p>General Inquiries: 123-456-7890</p>
           <p>Customer Care: care@pharmayouth.com</p>
