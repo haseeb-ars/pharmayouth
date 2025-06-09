@@ -11,7 +11,9 @@ const CBPMs = () => {
   return (
     <div className="cbpm-container">
       <div className="cbpm-banner">
+        <div className='cbpm-overlay'>
         <h1>CBPMs and Unlicensed  <br />Medicines</h1>
+        </div>
       </div>
 
       <div className="cbpm-text-section">
