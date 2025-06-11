@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './HelpSection.css';
+import { Link } from 'react-router-dom';
 
 const HelpSection = () => {
   const sectionRef = useRef(null);
@@ -61,10 +62,11 @@ const boxes = [
      <div className="help-grid">
   {boxes.map((box, index) => (
     <div className="help-box" key={index}>
-      <a href={box.link} className={`help-image-link tint-${index}`}>
-        <img src={box.image} alt={box.title} />
-        <div className="tint-overlay"></div>
-      </a>
+      <Link to={box.link} className={`help-image-link tint-${index}`}>
+  <img src={box.image} alt={box.title} />
+  <div className="tint-overlay"></div>
+</Link>
+
       <h3>{box.title}</h3>
       <p>{box.desc}</p>
     </div>
