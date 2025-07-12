@@ -50,7 +50,7 @@ export default function Home() {
       </div>
     </div>
     <div className="why-item">
-      <img src="/Thermometer.png" alt="Icon" />
+      <img src="/thermometer.png" alt="Icon" />
       <div>
         <h3>°C</h3>
         <p>Cold chain packaging for temperature safety</p>
