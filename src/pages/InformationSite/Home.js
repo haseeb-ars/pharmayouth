@@ -22,35 +22,35 @@ export default function Home() {
       </div>
     </div>
     <div className="why-item">
-      <img src="/Faidbox.png" alt="Icon" />
+      <img src="/chronometer.png" alt="Icon" />
       <div>
         <h3>8am to 8pm</h3>
         <p>GMT phone lines</p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/hospital.png" alt="Icon" />
+      <img src="/left-click.png" alt="Icon" />
       <div>
         <h3>1-click</h3>
         <p>repeat-order pads for individual patients</p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/Faidbox.png" alt="Icon" />
+      <img src="/24-7.png" alt="Icon" />
       <div>
         <h3>24/7</h3>
         <p>Online Ordering Portal</p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/hospital.png" alt="Icon" />
+      <img src="/customer-service.png" alt="Icon" />
       <div>
         <h3>NVQ 2 & 3</h3>
         <p>Qualified pharmacy-trained customer support</p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/Faidbox.png" alt="Icon" />
+      <img src="/Thermometer.png" alt="Icon" />
       <div>
         <h3>°C</h3>
         <p>Cold chain packaging for temperature safety</p>
