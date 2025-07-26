@@ -10,7 +10,7 @@ const TeamSection = () => {
 
       <div className="founders-grid">
         <div className="founder-card">
-          <img src="/Hussain.jpg" alt="Hussain Abdeh" className="founder-img" />
+          <img src="/Hussain2.jpeg" alt="Hussain Abdeh" className="founder-img" />
           <h3>Mr Hussain Abdeh</h3>
           <h4>Co-Founder & Quality Director</h4>
           <p>
@@ -19,7 +19,7 @@ const TeamSection = () => {
         </div>
 
         <div className="founder-card">
-          <img src="/Mehraan.jpg" alt="Mehraan Sattar" className="founder-img" />
+          <img src="/Mehraan2.png" alt="Mehraan Sattar" className="founder-img" />
           <h3>Mr Mehraan Sattar</h3>
           <h4>Co-Founder & Director</h4>
           <p>
