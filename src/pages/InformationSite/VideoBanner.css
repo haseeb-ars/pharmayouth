@@ -36,6 +36,10 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
+.banner-content p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
 
 .cta-button {
   background: transparent;

@@ -13,7 +13,9 @@ const VideoBanner = () => {
 
       <div className="banner-content">
         <h1>Delivering Trusted<br />Medicines</h1>
-        <button className="cta-button">Discover More</button>
+        <p>Your health deserves the highest standard of care. That’s why we’re committed to delivering only trusted, clinically approved medicines, including medical cannabis straight to your door with efficiency and discretion.
+</p>
+        
       </div>
     </div>
   );
