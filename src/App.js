@@ -14,6 +14,8 @@ import ImportExport from './pages/InformationSite/Import&Export';
 import Wholesale from './pages/InformationSite/Wholesale';
 import ScrollToTop from './ScrollToTop';
 import Pharmacy from './pages/InformationSite/Pharmacy';
+import TermsPage from './pages/InformationSite/TermsPage';
+import PrivacyPolicyPage from './pages/InformationSite/Privacy';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/pharmacy" element={<Pharmacy />} />
+          <Route path="/termspage" element={<TermsPage />} />
+          <Route path="/privacy" element={<PrivacyPolicyPage />} />
           <Route path="/whatwedo" element={<WhatWeDo />} />
                     <Route path="/cbpm" element={<CBPMs />} />
                     <Route path="/specialobtains" element={<SpecialObtains />} />
@@ -34,6 +38,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} /> {/* ✅ Add this */}
           <Route path="/login" element={<Login />} />
+          
         </Routes>
         <Footer />
       </div>

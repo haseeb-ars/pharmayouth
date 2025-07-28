@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,8 +27,9 @@ const Footer = () => {
         {/* Quick Links */}
         <div className="footer-column">
           <h3>Quick Links</h3>
-          <a href="facebook.com">Terms & Conditions</a><br />
-          <a href="facebook.com">Privacy Policy</a>
+          <Link to="/termspage">Terms & Conditions</Link>
+          <br />
+          <Link to="/privacy">Privacy Policy</Link>
         </div>
 
         {/* Follow / Newsletter */}

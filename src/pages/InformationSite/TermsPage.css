@@ -1,0 +1,61 @@
+.terms-page {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+padding-top: 110px;
+}
+
+.terms-hero {
+  background: linear-gradient(to right, #461279, #800080);
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.terms-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.terms-content {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.terms-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.last-updated {
+  color: #333;
+  font-weight: 500;
+}
+
+.welcome {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.terms-content a {
+  color: #2e7d32;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terms-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .terms-content {
+    padding: 0 1rem;
+  }
+
+  .terms-content p {
+    font-size: 1rem;
+  }
+}
