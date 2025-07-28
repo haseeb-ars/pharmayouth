@@ -1,13 +1,12 @@
 import './Home.css';
-import PharmaYouthSlider from './Slider';
 import HelpSection from './HelpSection';
+import VideoBanner from './VideoBanner';
 
 export default function Home() {
   return (
     <div className='Home'>
 
-
-<PharmaYouthSlider />
+<VideoBanner />
 <HelpSection />
 
 
@@ -15,45 +14,45 @@ export default function Home() {
   <h2>Why choose PharmaYouth?</h2>
   <div className="why-choose-grid">
     <div className="why-item">
-      <img src="/hospital.png" alt="Icon" />
+      <img src="/approved.png" alt="Icon" />
       <div>
-        <h3>20,000+</h3>
-        <p>formulations available for immediate manufacture</p>
+        <h3>WDA</h3>
+        <p>Certified for full legal compliance</p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/chronometer.png" alt="Icon" />
+      <img src="/export.png" alt="Icon" />
       <div>
-        <h3>8am to 8pm</h3>
-        <p>GMT phone lines</p>
+        <h3>50+</h3>
+        <p>Export destinations. Global reach for pharmacuiticals </p>
       </div>
     </div>
     <div className="why-item">
-      <img src="/left-click.png" alt="Icon" />
+      <img src="/thc.png" alt="Icon" />
       <div>
-        <h3>1-click</h3>
-        <p>repeat-order pads for individual patients</p>
+        <h3>CBPMs</h3>
+        <p>Licensing to facilitate Importation from countries such as Canada and the EU</p>
       </div>
     </div>
     <div className="why-item">
       <img src="/24-7.png" alt="Icon" />
       <div>
-        <h3>24/7</h3>
-        <p>Online Ordering Portal</p>
+        <h3>Round the clock</h3>
+        <p>Monitered security</p>
       </div>
     </div>
     <div className="why-item">
       <img src="/customer-service.png" alt="Icon" />
       <div>
-        <h3>NVQ 2 & 3</h3>
-        <p>Qualified pharmacy-trained customer support</p>
+        <h3>Highly experieced</h3>
+        <p> Pharmaceutical team</p>
       </div>
     </div>
     <div className="why-item">
       <img src="/thermometer.png" alt="Icon" />
       <div>
         <h3>°C</h3>
-        <p>Cold chain packaging for temperature safety</p>
+        <p>Use approved temperature controlled couriers</p>
       </div>
     </div>
   </div>
@@ -94,6 +93,7 @@ export default function Home() {
 
 */}
 
+{/*
 <section className="collab-section" id="about-section">
   <div className="collab-container">
     <div className="collab-left">
@@ -122,7 +122,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+*/}
 
 
 <div className="offer-section">

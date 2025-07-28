@@ -20,8 +20,7 @@ const Footer = () => {
           <h3>Contact</h3>
           <p>Ams Medical Accountants Limited, Floor 2, 9 Portland Street<br />Manchester, United Kingdom, M1 3BE</p>
           <p>Sales: info@pharmayouth.com</p>
-          <p>General Inquiries: 123-456-7890</p>
-          <p>Customer Care: care@pharmayouth.com</p>
+          <p>General Inquiries:  +44 7352 326747</p>
         </div>
 
         {/* Quick Links */}
@@ -33,14 +32,22 @@ const Footer = () => {
 
         {/* Follow / Newsletter */}
         <div className="footer-column">
-          <h3>Follow</h3>
-          <p>Sign up to get the latest news on our product.</p>
-          <form>
-            <label htmlFor="email">Email *</label><br />
-            <input type="email" id="email" name="email" required />
-            
-            <button type="submit" >Subscribe</button>
-          </form>
+          <h3>Follow </h3>
+          <p>Follow us on linkedIn</p>
+          <div className="linkedin-follow">
+  <a
+    href="https://www.linkedin.com/company/pharmayouth"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Follow us on LinkedIn"
+  >
+    <img
+      src="/linkedin.png"
+      alt="LinkedIn"
+      className="linkedin-icon"
+    />
+  </a>
+</div>
         </div>
 
         

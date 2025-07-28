@@ -13,6 +13,7 @@ import SpecialObtains from './pages/InformationSite/SpecialObtains';
 import ImportExport from './pages/InformationSite/Import&Export';
 import Wholesale from './pages/InformationSite/Wholesale';
 import ScrollToTop from './ScrollToTop';
+import Pharmacy from './pages/InformationSite/Pharmacy';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/pharmacy" element={<Pharmacy />} />
           <Route path="/whatwedo" element={<WhatWeDo />} />
                     <Route path="/cbpm" element={<CBPMs />} />
                     <Route path="/specialobtains" element={<SpecialObtains />} />

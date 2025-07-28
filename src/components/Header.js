@@ -50,7 +50,9 @@ const Header = () => {
 
         <nav className="nav-menu desktop-nav">
           <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
+          <Link to="/pharmacy" className="nav-link" onClick={closeMenu}>Pharmacy</Link> 
           <Link smooth to="/about" className="nav-link" onClick={closeMenu}>About</Link>
+
 
           <div className="submenu-wrapper">
             <div className="nav-link submenu-toggle" onClick={() => setSubmenuOpen(!submenuOpen)}>
@@ -78,6 +80,7 @@ const Header = () => {
 
       <div className={`mobile-menu ${menuOpen ? 'slide-in' : 'slide-out'}`}>
         <Link to="/" onClick={closeMenu}>Home</Link>
+        <Link to="/pharmacy" onClick={closeMenu}>Pharmacy</Link>
         <Link smooth to="/about" className="nav-link" onClick={closeMenu}>About</Link>
 
         <div className="submenu-mobile">

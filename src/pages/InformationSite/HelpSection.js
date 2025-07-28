@@ -36,7 +36,7 @@ const boxes = [
     link: '/importexport',
   },
   {
-    title: 'Specials / Unlicensed Meds',
+    title: 'Unlicensed Meds',
     image: '/What3.jpg',
     desc: 'Providing bespoke, patient-specific unlicensed medicines that meet exact formulation and dosage needs.',
     link: '/cbpm',

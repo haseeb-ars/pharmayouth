@@ -109,10 +109,13 @@
   opacity: 0.5;
 }
 
-/* Unique tint colors */
-.tint-0 .tint-overlay { background-color: rgba(9, 52, 93) }  /* Teal */
-.tint-1 .tint-overlay { background-color: rgba(61, 7, 110) }  /* Deep Blue */
-.tint-2 .tint-overlay { background-color: rgba(0, 128, 0) }  /* Burnt Red */
-.tint-3 .tint-overlay { background-color: rgba(0, 128, 0) }  /* Purple */
-.tint-4 .tint-overlay { background-color: rgba(211, 84, 0) }  /* Orange */
 
+/* 
+
+.tint-0 .tint-overlay { background-color: rgba(9, 52, 93) }  
+.tint-1 .tint-overlay { background-color: rgba(61, 7, 110) }  
+.tint-2 .tint-overlay { background-color: rgba(0, 128, 0) }  
+.tint-3 .tint-overlay { background-color: rgba(0, 128, 0) }  
+.tint-4 .tint-overlay { background-color: rgba(211, 84, 0) }  
+
+*/
