@@ -133,25 +133,25 @@ export default function Home() {
 
   <div className="offer-grid">
     <div className="offer-card">
-      <img src="/Branded.png" alt="Workflows That Work" />
+      <img src="/1.jpeg" alt="Workflows That Work" />
       <h3>Branded<br />Pharmaceuticals</h3>
       <p>We supply a wide range of trusted branded medicines from leading manufacturers, ensuring high-quality treatment options for patients across various therapeutic areas.</p>
     </div>
 
     <div className="offer-card">
-      <img src="/Generic2.png" alt="All-In-One Solution" />
+      <img src="/2.jpeg" alt="All-In-One Solution" />
       <h3>Generic<br />Medicines</h3>
       <p>Our extensive selection of cost-effective generic alternatives helps healthcare providers manage budgets without compromising on quality or patient care.</p>
     </div>
 
     <div className="offer-card">
-      <img src="/OTC2.png" alt="Comprehensive Support" />
+      <img src="/3.jpeg" alt="Comprehensive Support" />
       <h3>Over-the-Counter (OTC)<br />Products</h3>
       <p>From pain relief to daily wellness, we offer a full spectrum of OTC products to support everyday healthcare needs in pharmacies and retail outlets.</p>
     </div>
 
     <div className="offer-card">
-      <img src="/Device.png" alt="Smart Automation Tools" />
+      <img src="/4.jpeg" alt="Smart Automation Tools" />
       <h3>Medical Devices<br />& Consumables</h3>
       <p>PharmaYouth also provides a reliable supply of essential medical devices and consumables, including PPE, diagnostic tools, and daily-use clinical supplies.</p>
     </div>
