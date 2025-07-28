@@ -133,13 +133,13 @@ export default function Home() {
 
   <div className="offer-grid">
     <div className="offer-card">
-      <img src="/1.jpeg" alt="Workflows That Work" />
+      <img src="/2.jpeg" alt="Workflows That Work" />
       <h3>Branded<br />Pharmaceuticals</h3>
       <p>We supply a wide range of trusted branded medicines from leading manufacturers, ensuring high-quality treatment options for patients across various therapeutic areas.</p>
     </div>
 
     <div className="offer-card">
-      <img src="/2.jpeg" alt="All-In-One Solution" />
+      <img src="/1.jpeg" alt="All-In-One Solution" />
       <h3>Generic<br />Medicines</h3>
       <p>Our extensive selection of cost-effective generic alternatives helps healthcare providers manage budgets without compromising on quality or patient care.</p>
     </div>
